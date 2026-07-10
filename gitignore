@@ -1,0 +1,38 @@
+# WireGuard / VPN ключи и секреты — никогда не коммитить
+*.key
+*.pub
+*_private*
+*_secret*
+wg-keys/
+keys/
+secrets/
+
+# Локальные конфиги роутеров с реальными IP/паролями
+*.conf.local
+*.local.conf
+config.local.*
+*-local.*
+
+# podkop / sing-box локальные конфиги с реальными данными подписки
+podkop-config.json
+sing-box-config.json
+*.subscription
+
+# Бэкапы конфигурации OpenWrt/RouterOS
+*.backup
+*.rsc
+sysupgrade.tar.gz
+*-backup-*.tar.gz
+
+# OS / редакторы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Временные файлы
+*.tmp
+*.bak
+*~
