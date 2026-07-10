@@ -1,3 +1,4 @@
+[Русская версия](https://github.com/Ragelson/multi-office-network-setup-ru)
 # Connecting Office Networks via WireGuard + OpenWrt/podkop
 
 A practical architecture for merging the LANs of multiple offices into a
